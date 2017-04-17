@@ -1,0 +1,286 @@
+body {
+	font-family: "Poppins", sans-serif;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+nav ul{
+	text-align: center;
+	display: flex;
+	background-color: #0a0a0a;
+	font-size: 14px;
+	font-weight: 500;
+    line-height: 22px;
+    margin: 0px;
+}
+
+nav li{
+	list-style-type: none;
+	text-align: center;
+    padding: 20px 22px 18px 22px ;
+}
+
+nav li a{
+	color: white;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color: #f4544c;
+}
+
+.li1{
+	width: 143px;
+    height: 25px;
+    padding: 0 250px 0 50px;
+}
+
+.li2{
+	padding: 30px 28px;
+	color: #ffffff;
+    background-color: #f4544c;
+    border-color: #f4544c #f4544c #f1261c;
+    text-transform: uppercase;
+    margin: 20px; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 68px;
+    left: 10px;
+    background: #1e1e1e;
+    min-width: 200px;
+    padding: 5px;
+    text-align: left;
+    opacity: 1;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #969696;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.19);
+    font-size: 0.9em;
+    font-weight: 400;
+    padding: 8px 20px 8px 8px;
+    position: relative;
+    text-transform: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: rgba(204, 204, 204, 0.19);
+    color: #969696;
+}
+
+.sec1{
+	position: relative;
+}
+
+.sec1 h2{
+	color: #f4544c;
+	font-weight: 700;
+	font-size: 2.2em;
+    line-height: 42px;
+    margin: 0;
+}
+
+.sec1 h3{
+	color: #0a0a0a;
+	font-size: 1.6em;
+    letter-spacing: -1px;
+    line-height: 27px;
+    margin: 0 0 14px 0;
+}
+
+.p1{
+	color: #5e5e5e;
+	line-height: 24px;
+    margin: 0 0 20px;
+}
+
+.p2{
+	font-size: 0.8em;
+	line-height: 24px;
+    color: #5e5e5e;
+}
+
+.about{
+	padding: 50px 0px 130px 100px;
+	width: 60%;
+}
+
+.form{
+	color: white;
+	position: absolute;
+	right: 110px;
+	top: 60px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 15%;
+    height: auto;
+    padding: 30px;
+    background-color: #f4544c;
+}
+
+.form h3{
+	color: white;
+	margin: 0px;
+}
+
+.form p{
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0 0 20px; 
+	letter-spacing: -1px; 
+}
+
+form{
+	display: block;
+}
+
+input{
+	padding: 8px;
+	margin: 7px 0;
+	font-size: 12px;
+	width: 90%;
+}
+
+
+.bottom{
+	border-color: #171717 #171717 #000000;
+    background-color: #0a0a0a;
+    color: white;
+    width: 100%;
+    padding: 10px 25px;
+    font-weight: 700; 
+    font-size: 14px;
+}
+
+
+.sec2{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 200px 90px 200px;
+}
+
+
+h2{
+    color: #0a0a0a;
+    font-size: 2.2em;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -1px;
+}
+
+.sec2 span{
+    color: #f4544c;
+}
+
+.sec2 p{
+    color: #5e5e5e;
+    line-height: 24px;
+    margin-bottom: 40px;
+
+}
+
+.sec2 a{
+    color: #ffffff;
+    background-color: #f4544c;
+    border-color: #f4544c #f4544c #f1261c;
+    padding: 13px 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-decoration: none;
+    line-height: 1.42857143;
+}
+
+.sec2 a:hover{
+    border-color: #f56b64 #f56b64 #f33d34;
+    background-color: #f56b64;
+}
+
+.sec3{
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+}
+
+.sec3 div{
+    overflow: hidden;
+}
+
+.sec3 img{
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.sec3 img:hover {
+    transform: scale(1.1);
+}
+
+.sec4{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 180px;
+}
+
+.sec4 div{
+    overflow: hidden;
+}
+
+.sec4 img{
+    max-width: 100%;
+    transition: all 0.3s;
+}
+
+.sec4 img:hover {
+    transform: scale(1.1);
+}
+
+footer{
+    background: #0e0e0e;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+.fafa i{
+    padding: 5px 10px;
+    font-size: 17px;
+    transition: 0.5s;
+    color: white;
+}
+
+.fafa i:hover{color: #777;}
+
+footer p{
+    color: #777;
+}
+
+footer span{
+    font-weight: 400;
+    color: #ffffff;
+}
